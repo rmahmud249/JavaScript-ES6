@@ -79,7 +79,6 @@ const employee={
     salary :2000,
     expreance:3
 }
-
 const keys=Object.keys(employee);
 const values = Object.values(employee);
 console.log(keys);
@@ -88,7 +87,25 @@ console.log(values);
 
 
 
+//=====================================
+const student={
+    name :'Rasel Mahmud',
+    designation: 'Student',
+    salary :2000,
+    expreance:3,
+    age: 22
+}
+for(const key in student){
+    const values = student[key];
+    console.log(key,values);
+}
 
+//=======================================
+const ky=Object.keys(student);
+for(const kyei of ky){
+    const valuei=student[kyei];
+    console.log(valuei);
+}
 
 
 
