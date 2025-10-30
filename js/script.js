@@ -34,7 +34,63 @@ const price =100;
 const  discountPrice=`Discount 20% Price is :  ${price*0.8}`;
 console.log(discountPrice);
 
-//=========Arrow Function
+
+//==========Function Expression========
+const addtions=function(num1, num2){
+    return num1+num2;
+}
+const  additonR=addtions(10,30);
+console.log(additonR);
+
+//=========Arrow Function==============
+
+const add=(num1,num2)=>num1+num2
+const addResult=add(10,20);
+console.log(addResult);
+
+
+//=========Arrow Function==============
+const getTax=(amount,taxRate)=>amount*taxRate/100;
+
+
+//===========================
+const numbers=[10,20,30,40];
+console.log(numbers);
+console.log(...numbers);
+
+
+const max=Math.max(10,20,50,40,500,900,1000);
+console.log(max);
+
+const product={
+    name : 'Shirt',
+    price : 100 ,
+    quantity : 7
+    }
+const discountProduct=product.price*20/100;
+console.log(discountProduct);
+
+
+
+//============================
+const employee={
+    name :'Rasel Mahmud',
+    designation: 'Student',
+    salary :2000,
+    expreance:3
+}
+
+const keys=Object.keys(employee);
+const values = Object.values(employee);
+console.log(keys);
+console.log(values);
+
+
+
+
+
+
+
 
 
 
